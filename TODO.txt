@@ -1,0 +1,6 @@
+DONE
+1. Index.html
+
+TODO
+1. Add image alts to everything except index
+2. 
