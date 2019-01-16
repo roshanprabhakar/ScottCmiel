@@ -15,9 +15,21 @@ body {
 	height: 100vh;
 }
 
+
+.introparagraph p {
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%
+	line-height: 1.5;
+	line-height: 25pt;
+	font-size: 18px;
+	font-family: Optima;
+}
+
+
 .menu-area li a{
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	display: block;
@@ -38,43 +50,21 @@ nav{
 	padding: 10px 20px 10px 10px;
 	text-align: center;
 	z-index: l;
-	background: #333;
+	background: #fff;
 	margin 0: auto;
 	width:calc(100%);	
 }
 
 .menu-area li a:hover{
-	background: white;
-	color: 0;
+	background: black;
+	color: white;
 }
 
 .homeimage {
 	width: 80%;
 	height: 80%;
-	opacity: 0.3;
 	position: center;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size: 25px;
-}
-
-.centered p {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-
+    
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
         -ms-animation: fadein 4s; /* Internet Explorer */
@@ -110,13 +100,6 @@ nav{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-
-
-
-
-
-
 
 
 
