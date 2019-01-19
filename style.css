@@ -1,3 +1,39 @@
+
+
+.title-attributes{
+
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    font-family: acumin-pro-wide;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    letter-spacing: .14em;
+    line-height: .8em;
+    color: #131516;
+	background-color: #f2f8f6;
+}
+
+.subheader{
+	max-width: 40em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+    font-family: acumin-pro-wide;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .06em;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    color: #080707;
+}
+
 * {
 	margin: 0;
 	padding: 0;

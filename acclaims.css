@@ -1,15 +1,5 @@
 .sergio {
-	position: center;
-}
-
-.sergioimage img {
-	position: center;
-	float: left; 
-}
-
-.sergioparagraph {
-	position: center;
-	float: right;
+	position: relative;
 }
 
 
