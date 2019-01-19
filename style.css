@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -15,7 +15,6 @@ body {
 	height: 100vh;
 }
 
-
 .introparagraph p {
 	width: 36em;
 	margin: 0 auto;
@@ -27,7 +26,7 @@ body {
 }
 
 
-.menu-area li a{
+.menu-area li a {
 	text-decoration: none;
 	color: #000;
 	letter-spacing: 4px;
@@ -101,7 +100,14 @@ nav{
     to   { opacity: 1; }
 }
 
+.sergio img {
+	float: left; 
+ 	padding: 0 20px 20px 0;
+}
 
+.sergio * {
+	position: center;
+}
 
 
 
