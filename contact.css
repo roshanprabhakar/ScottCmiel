@@ -1,18 +1,17 @@
 input[type=text], select, textarea {
     width: 100%;
     padding: 18px;
-    border-radius: 6px;
     box-sizing: border-box;
     margin-top: 8px;
     margin-bottom: 75px;
     resize: vertical;
-    background-color: #c0c6d1;
+    background-color: #cedcdd;
 }
 
 
 /*input box*/
 input[type=submit] {
-    background-color: white;
+    background-color: #cedcdd;
     font-size: 18px;
     color: black;
     padding: 18px 30px;
@@ -26,11 +25,11 @@ input[type=submit]:hover {
     background-color: black;
     font-size: 18px;
     border: 1px solid black;
-    color: #fff;
+    color: #cedcdd;
 }
 
 .container {
-    background-color: white;
+    background-color: #cedcdd;
     font-size: 18px;
     padding: 30px;
 }
