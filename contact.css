@@ -5,13 +5,13 @@ input[type=text], select, textarea {
     margin-top: 8px;
     margin-bottom: 75px;
     resize: vertical;
-    background-color: #cedcdd;
+    background-color: #eaedf2;
 }
 
 
 /*input box*/
 input[type=submit] {
-    background-color: #cedcdd;
+    background-color: #eaedf2;
     font-size: 18px;
     color: black;
     padding: 18px 30px;
@@ -29,7 +29,7 @@ input[type=submit]:hover {
 }
 
 .container {
-    background-color: #cedcdd;
+    background-color: #eaedf2;
     font-size: 18px;
     padding: 30px;
 }

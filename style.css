@@ -14,7 +14,7 @@
     letter-spacing: .14em;
     line-height: .8em;
     color: #131516;
-	background: #cedcdd;
+	background: #eaedf2;
 }
 
 .subheader{
@@ -32,7 +32,7 @@
     line-height: 1.1em;
     text-transform: uppercase;
     color: #080707;
-	background: #cedcdd;
+	background: #eaedf2;
 
 }
 
@@ -51,7 +51,7 @@ body {
 	background-size:cover;
 	background-position: center center;
 	height: 100vh;
-	background: #cedcdd;
+	background: #eaedf2;
 }
 
 .introparagraph p {
@@ -62,7 +62,7 @@ body {
 	line-height: 25pt;
 	font-size: 18px;
 	font-family: Optima;
-	background-color: #cedcdd;
+	background-color: #eaedf2;
 }
 
 .menu-area li a {
@@ -87,14 +87,14 @@ nav{
 	position: relative;
 	padding: 10px 20px 10px 10px;
 	text-align: center;
-	background: #cedcdd;
+	background: #eaedf2;
 	margin : auto;
 	width:calc(100%);	
 }
 
 .menu-area li a:hover{
 	background: black;
-	color: #cedcdd;
+	color: #eaedf2;
 }
 
 .homeimage {
