@@ -1,3 +1,5 @@
+
+/*Sergio*/
 #sergioimage {
 	float: left;
 	margin-right: 20px;
@@ -14,7 +16,24 @@
 	font-size: 20px;
 }
 
+/*William*/
+#williamimage {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
 
+.william {
+	position: relative;
+	left: 10%;
+	margin-bottom: 170px;
+}
+
+#williamp {
+	font-size: 20px;
+}
+
+/*antigoni*/
 .antigoni {
 	position: relative;
 	right: 10%;
@@ -27,6 +46,23 @@
 }
 
 #antigonip {
+	text-align: right;
+	font-size: 20px;
+}
+
+/*brothers*/
+.brothers {
+	position: relative;
+	right: 10%;
+	margin-bottom: 170px;
+}
+
+#brothersimage {
+	float: right;
+	margin-left: 20px;
+}
+
+#brothersp {
 	text-align: right;
 	font-size: 20px;
 }
