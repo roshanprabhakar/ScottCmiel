@@ -31,7 +31,6 @@
     text-transform: uppercase;
     color: #080707;
     background: #eaedf2;
-
 }
 
 * {
@@ -74,7 +73,7 @@ body {
     z-index: 1;
     margin: 10px;
     border-radius: 10px;
-    transition: background-color 3s ease-out;
+    transition: background-color 500ms ease-out;
 
 }
 
@@ -100,7 +99,7 @@ nav {
 
 .menu-area li a:hover {
     background: black;
-    -webkit-transition: background-color 3000ms linear;
+    -webkit-transition: background-color 500ms linear;
     color: #eaedf2;
 
 }

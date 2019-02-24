@@ -19,11 +19,13 @@ input[type=submit] {
     border-radius: 5px;
     cursor: pointer;
     position: center;
+    transition: background-color 300ms ease-out;
+
 }
 
 input[type=submit]:hover {
     background-color: black;
-    -webkit-transition: 1s linear;
+    -webkit-transition: 300ms linear;
     font-size: 18px;
     border: 1px solid black;
     color: #cedcdd;
