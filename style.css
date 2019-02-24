@@ -74,12 +74,14 @@ body {
     z-index: 1;
     margin: 10px;
     border-radius: 10px;
+    transition: background-color 3s ease-out;
 
 }
 
 .menu-area li {
     list-style: none;
     display: inline-block;
+
 }
 
 nav {
