@@ -23,6 +23,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: black;
+    -webkit-transition: 1s linear;
     font-size: 18px;
     border: 1px solid black;
     color: #cedcdd;

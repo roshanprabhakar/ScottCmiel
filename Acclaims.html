@@ -1,118 +1,211 @@
 <!DOCTYPE html5>
+
 <head>
     <title>Scott Cmiel</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="./acclaims.css">
     <center>
         <br>
         <br>
         <br>
         <div class="title-attributes">
-            <font family="acumin-pro, sans serif" color="#131516" size="56">Scott Cmiel</font>
+            <font family="acumin-pro, sans serif" size="56">Scott Cmiel</font>
         </div>
         <br>
         <div class="subheader">
             <p>BAY AREA GUITAR TEACHER</p>
         </div>
-        <br>
-        <br>
     </center>
 </head>
 
-<body>
 
+<body>
+<br>
 <nav>
-    <ul class="menu-area">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./Acclaims.html">Acclaims</a></li>
-        <li><a href="https://www.youtube.com/user/ScottCmiel" target="_blank">Youtube</a></li>
-        <li>
-            <a href="https://www.google.com/search?q=scott+cmiel&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiN1erNh_7fAhUBHjQIHVzbA7EQ_AUIDigB&biw=1440&bih=790"
-               target="_blank">Images</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-    </ul>
+    <div class="menu">
+        <ul class="menu-area">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Acclaims.html">Acclaims</a></li>
+            <li><a href="https://www.youtube.com/user/ScottCmiel" target="_blank">Youtube</a></li>
+            <li><a href="https://www.google.com/search?q=scott+cmiel&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiN1erNh_7fAhUBHjQIHVzbA7EQ_AUIDigB&biw=1440&bih=790"
+                   target="_blank">Images</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- above this is good -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
 
-<br>
-<br>
-<br>
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
 
-<div class="sergio">
-    <img src="./res/sergioassad.jpg" alt="SergioAssad" id="sergioimage">
-    <p id="sergiop">
-        <em>"Scott Cmiel imbues his teaching with such passion and dedication that he
-            inspires <br> all of us who
-            have dedicated ourselves to music and the guitar. I regularly coach his <br> students at the <strong> San
-                Francisco Conservatory of Music </strong> and always find them brilliantly <br> well prepared. Scott has
-            been a great force in the preparation of many future masters ... <br> he is a wonderful teacher!" -- Sergio
-            Assad </em>
-    </p>
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+        }
+    </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./res/sergioassad.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./res/antigoni.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./res/william.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
-
-
-<br>
-<br>
 <br>
 
-<div class="antigoni">
-    <img src="./res/antigoni.jpg" alt="antigoni" id="antigoniimage">
-    <p id="antigonip">
-        <em>"It takes a great deal to be a successful mentor of talented young musicians. <br> In addition to
-            providing first-class technical and musical instruction, a mentor must <br> nurture, inspire, guide,
-            support and in addition must be a students biggest cheer leader <br> and first concert promoter.
-            People like this are rare and in my tours around the world <br> I have had the privilege of meeting only a
-            few. <br> My favorite is San Francisco's Scott Cmiel!" -- Antigoni Goni </em>
-    </p>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+<
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
 
-<br>
-<br>
-<br>
-<div class="william">
-    <img src="./res/william.jpg" alt="WilliamKanengiser" id="williamimage">
-    <p id="williamp">
-        <em> "Scott Cmiel has established himself as one of the most effective and inspirational <br> guitar
-            instructors in the United States. I have had the pleasure of accepting a <br> number of Scott’s former
-            students into my studio at the <strong>University of Southern California</strong>. <br> They have all
-            been
-            exceptionally well-prepared as musicians and guitarists, and they have <br> shown a contagious
-            enthusiasm
-            for their instrument. In addition to being a highly <br> qualified teacher, Scott has a warm, nurturing
-            demeanor that encourages all his students <br> to excel." -- William Kanengiser </em>
-    </p>
-</div>
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
 
-<br>
-<br>
-<br>
-<div class="brothers">
-    <img src="./res/brothers.jpg" id="brothersimage">
-    <p id="brothersp">
-        <em>"As artists in residence for San Francisco Performances, we had the pleasure of working <br>with the
-            students of Scott Cmiel over a period of four years. Their technical ability and <br>musicality was of
-            the
-            highest standard and a mirror image of Scott's skill as a <br> teacher and his enthusiasm for the
-            guitar. A
-            few lucky teachers are fortunate enough to <br> have one exceptionally talented student but Scott has
-            had so
-            many it cannot be the <br> result of luck. He has the rare gift of motivating and making his pupils
-            enthusiastic <br> about guitar playing. Scott’s open minded attitude towards anything new or different
-            <br>
-            and his hunger to learn put him on the very frontier of a changing guitar world. Scott <br> is surely
-            one of
-            the most inspiring guitar teachers of our <br>time. " -- Peter and Zoltan Katona</em>
-    </p>
-</div>
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
 
-<br>
-<br>
-<br>
+</body>
+</html>
 
-<br>
+<!---
+    <br>
 <br>
 <br>
 
@@ -130,7 +223,6 @@
 <br>
 <br>
 <br>
-<!-- 
 <div id="antigoni">
     <br>
     <center>
@@ -154,8 +246,73 @@
     </center>
 </div>
  -->
-
-
+<!---
+<br>
+<br>
+<br>
+<div id="william">
+    <br>
+    <center>
+        <img src="./res/william.jpg">
+        <br>
+        <br>
+        <a href="http://www.kanengiser.com/" target="_blank">
+            <h3>William Kanengiser</h3>
+        </a>
+        <br>
+        <a href="https://www.lagq.com/" target="_blank">
+            <h5>Los Angeles Guitar Quartet</h5>
+        </a>
+        <a href="https://music.usc.edu/" target="_blank">
+            <h5>University of Southern California, Thornton School of Music</h5>
+        </a>
+        <br>
+        <p><em> "Scott Cmiel has established himself as one of the most effective and inspirational <br> guitar
+            instructors in the United States. I have had the pleasure of accepting a <br> number of Scott’s former
+            students into my studio at the <strong>University of Southern California</strong>. <br> They have all
+            been
+            exceptionally well-prepared as musicians and guitarists, and they have <br> shown a contagious
+            enthusiasm
+            for their instrument. In addition to being a highly <br> qualified teacher, Scott has a warm, nurturing
+            demeanor that encourages all his students <br> to excel." -- William Kanengiser </em>
+        </p>
+    </center>
+</div>
+<br>
+<br>
+<br>
+<div id="brothers">
+    <br>
+    <center>
+        <img src="./res/brothers.jpg">
+        <br>
+        <br>
+        <h3>Peter and Zoltan Katona</h3>
+        <br>
+        <a href="http://katonatwins.com/index.html" target="_blank">
+            <h5>Katona Twins Guitar Duo</h5>
+        </a>
+        <br>
+        <a href="https://www.hfmdk-frankfurt.info/" target="_blank">
+            <h5>Musikhochschule, Frankfurt, Germany</h5>
+        </a>
+        <br>
+        <p><em>"As artists in residence for San Francisco Performances, we had the pleasure of working <br>with the
+            students of Scott Cmiel over a period of four years. Their technical ability and <br>musicality was of
+            the
+            highest standard and a mirror image of Scott's skill as a <br> teacher and his enthusiasm for the
+            guitar. A
+            few lucky teachers are fortunate enough to <br> have one exceptionally talented student but Scott has
+            had so
+            many it cannot be the <br> result of luck. He has the rare gift of motivating and making his pupils
+            enthusiastic <br> about guitar playing. Scott’s open minded attitude towards anything new or different
+            <br>
+            and his hunger to learn put him on the very frontier of a changing guitar world. Scott <br> is surely
+            one of
+            the most inspiring guitar teachers of our <br>time. " -- Peter and Zoltan Katona</em>
+        </p>
+    </center>
+</div>
 <br>
 <br>
 <br>
@@ -263,5 +420,4 @@
     <br>
     <br>
 </div>
-</div>
-</body>
+--->
