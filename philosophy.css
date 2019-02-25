@@ -1,0 +1,32 @@
+.philosophyparagraph p {
+    text-allign: center;
+    width: 60em;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 1.5;
+    line-height: 25pt;
+    font-size: 18px;
+    font-family: Optima;
+    background-color: #eaedf2;
+}
+
+.philosophyparagraph {
+    position: relative;
+    left: 7%;
+}
+
+.philosophyimages {
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.philosophyimages img {
+    position: relative;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
