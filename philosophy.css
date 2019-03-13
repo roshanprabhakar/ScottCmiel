@@ -19,11 +19,6 @@
     height: 300px;
 }
 
-.philosophyimages {
-    position: relative;
-    left: 5%;
-}
-
 @keyframes fadein {
     from {
         opacity: 0;
