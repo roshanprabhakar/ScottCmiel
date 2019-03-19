@@ -164,3 +164,7 @@ nav {
         opacity: 1;
     }
 }
+
+.slideshow-container img {
+    margin-left: 17%;
+}
