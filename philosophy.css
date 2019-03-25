@@ -1,7 +1,6 @@
 .philosophyparagraph p {
-    text-allign: center;
     width: 60em;
-    margin: 0 auto;
+    margin: 0;
     max-width: 100%;
     line-height: 1.5;
     line-height: 25pt;
@@ -15,14 +14,14 @@
 }
 
 .philosophyimages {
-    width: 100%;
+    position: absolute;
+    left: 23%;
+    background: #000;
 }
 
 .philosophyimages img {
     width: 400px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @keyframes fadein {
